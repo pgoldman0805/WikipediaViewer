@@ -1,0 +1,89 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  background-color: #092b40;
+  color: #dddddd;
+}
+
+.text {
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  font-size: 1.2em;
+}
+
+#random {
+  margin-top: 20%;
+  margin-bottom: 2%;
+  width: 20%;
+}
+#random a {
+    color: #dddddd;
+    text-decoration: none;
+}
+#random a:hover{
+    color: #aaaaaa;
+}
+.hidden {
+  display: none;
+}
+#input {
+  width: 30%;
+  margin: 0 auto;
+}
+
+#input-x {
+  background-color: #b60a0a;
+  color: white;
+  text-shadow: 1px 1px 1px;
+  font-size: 1.3em;
+  box-shadow: 5px 5px 25px black;
+  z-index: 2;
+}
+
+#input-x:hover, #search-container i:hover {
+    cursor: pointer;
+}
+#search-container{
+  color: orange;
+}
+
+#search-text {
+  margin-top: 2%;
+  margin-bottom: 20%;
+}
+
+/*
+ *  JS CLASSES
+ */
+
+.results-tab {
+  
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 14px;
+  border: 1px solid black;
+  width: 60%;
+  background-color: white;
+  opacity: 0.7;
+  box-shadow: 5px 5px 5px black;
+}
+
+.results-tab h2, .results-tab h6 {
+    padding: 14px;
+}
+
+.results-tab h2 {
+    color: #333333;
+    text-shadow: 1px 1px black;
+}
+
+.results-tab a {
+    font-family: 'Georgia',serif;
+    color: black;
+    text-decoration: none;
+}

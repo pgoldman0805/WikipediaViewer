@@ -1,0 +1,52 @@
+<!DOCTYPE HTML5>
+<html>
+
+<head>
+    <title>Wikipedia Viewer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" />
+    <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+
+                <p id="random" class="text"><a href="https://en.wikipedia.org/wiki/Special:Random" target="blank">Click here for a random article </a></p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div id="search-container" class="text-center">
+                    <i id="search-icon" class="fa fa-search fa-5x"></i>
+                    <div id="input" class="input-group hidden">
+                        <input id="input-text" type="text" class="form-control" placeholder="Search Wikipedia">
+                        <span class="input-group-addon" id="input-x">x</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SEARCH RESULTS -->
+        <div class="row">
+            <div class="col-md-12 text">
+                <div id="results"></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <p id="search-text" class="text text-center">Click icon to search</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
